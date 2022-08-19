@@ -13,7 +13,7 @@ class Usuario {
     }
 
     addMascota(mascota){
-        this.mascotas.push(mascota) 
+        return this.mascotas.push(mascota) 
 
     }
 
@@ -22,7 +22,7 @@ class Usuario {
     }
 
     addBook(nombreL, autorL){
-        this.libros.push({nombreL, autorL})
+        return this.libros.push({nombreL, autorL})
     }
     
     getBookNames(){
@@ -48,7 +48,6 @@ console.log(usuario.getBookNames())
 console.log(usuario.mascotas)
 
 console.log(usuario.libros)
-
 
 
 
